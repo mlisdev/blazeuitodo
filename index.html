@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>2023 To Do App</title>
+        <link rel="stylesheet" href="https://unpkg.com/@blaze/css@x.x.x/dist/blaze/blaze.css">
+        <link rel="stylesheet" href="styles.css">
+        <script type="module" src="https://unpkg.com/@blaze/atoms@x.x.x/dist/blaze-atoms/blaze-atoms.esm.js"></script>
+        <script nomodule="" src="https://unpkg.com/@blaze/atoms@x.x.x/dist/blaze-atoms/blaze-atoms.js"></script>
+    </head>
+
+    <body>
+        <div class="o-container o-container--medium">
+            <h1 class="c-heading u-super u-gradient-text">2023 To Do App</h1>
+            <div class="c-input-group u-window-box-large">
+                <div class="o-field">
+                    <form>
+                        <input id="item" type="text" class="c-field" placeholder="Add a new to do item" required />
+                </div>
+                <input type="submit" class="c-button c-button--ghost c-button--brand">
+                </form>
+            </div>
+            <div class="c-card u-window-box-large u-high">
+                <header class="c-card__header">
+                    <h2 class="c-heading">To Do List</h2>
+                    <div class="c-card__body">
+                        <ul class="c-card__item"></ul>
+                    </div>
+            </div>
+            <div class="u-window-box-large">
+                <button type="button" class="c-button c-button--ghost c-button--brand u-high">Clear All</button>
+            </div>
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+
+</html>
